@@ -1,0 +1,4 @@
+#!/bin/bash
+swhks &
+pkexec swhkd --config ~/.config/swhkd/swhkdrc & disown
+rfkill unblock all

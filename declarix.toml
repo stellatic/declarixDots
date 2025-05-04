@@ -1,0 +1,46 @@
+[system]
+[system.recursive]
+root = [
+	["firefox", "/usr/lib/firefox"],
+	["thunderbird", "/usr/lib/thunderbird"],
+	["chromium", "/etc/chromium"]
+]
+
+[install]
+paru = [
+	"ttf-font-awesome",
+	"noto-fonts",
+	"noto-fonts-cjk",
+	"flatpak",
+	"xdg-desktop-portal",
+	"xdg-desktop-portal-hyprland",
+	"waybar",
+	"syncthing",
+	"ranger",
+	"thunderbird",
+	"npm",
+	"btop",
+	"wf-recorder",
+	"gimp",
+	"inotify-tools",
+	"dart-sass",
+	"swww",
+	"ntfs-3g"
+]
+
+flatpak = [
+]
+
+vsc = [
+  "aaron-bond.better-comments",
+  "bungcip.better-toml",
+  "catppuccin.catppuccin-vsc",
+  "catppuccin.catppuccin-vsc-icons",
+  "esbenp.prettier-vscode",
+  "rust-lang.rust-analyzer",
+  "ritwickdey.liveserver",
+  "formulahendry.auto-close-tag",
+  "abusaidm.html-snippets",
+  "html-validate.vscode-html-validate",
+  "s-nlf-fh.glassit"
+]

@@ -1,0 +1,105 @@
+{
+  "policies": {
+    "DisablePocket": true,
+    "DisableTelemetry": true,
+    "DisplayBookmarksToolbar": true,
+    "OfferToSaveLogins": false,
+    "FirefoxHome": {
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Pocket": false,
+      "SponsoredPocket": false
+    },
+    "Homepage": {
+      "URL": "https://facebook.com",
+      "StartPage": "homepage"
+    },
+    "ExtensionSettings": {
+      "*": {
+        "installation_mode": "blocked"
+      },
+      "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/video-downloadhelper/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "queryamoid@kaply.com": {
+        "install_url": "https://github.com/mkaply/queryamoid/releases/download/v0.1/query_amo_addon_id-0.1-fx.xpi",
+        "installation_mode": "force_installed"
+      },
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "sponsorBlocker@ajay.app": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sponsorblock/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{e90f5de4-8510-4515-9f67-3b6654e1e8c2}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/dictionary-anyvhere/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "addon@simplelogin": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/simplelogin/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{00000f2a-7cde-4f20-83ed-434fcb420d71}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/imagus/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{f4961478-ac79-4a18-87e9-d2fb8c0442c4}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/global-speed/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/styl-us/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{e4a8a97b-f2ed-450b-b12d-ee082ba24781}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/greasemonkey/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{446900e4-71c2-419f-a6a7-df9c091e268b}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{9b84b6b4-07c4-4b4b-ba21-394d86f6e9ee}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/black21/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "addon@darkreader.org": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{7d2676a5-0546-4e2a-9019-aa9d8345be1e}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sqlite-manager-webext/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "{7c42eea1-b3e4-4be4-a56f-82a5852b12dc}": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/phantom-app/latest.xpi",
+        "installation_mode": "force_installed"
+      }
+    },
+    "Preferences": {
+      "browser.tabs.closeWindowWithLastTab": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "middlemouse.paste": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "widget.non-native-theme.scrollbar.style": {
+        "Value": 3,
+        "Status": "locked"
+      },
+      "_comment": "Privacy",
+      "browser.pagethumbnails.capturing_disabled": {
+        "Value": true,
+        "Status": "locked"
+      }
+    },
+    "WebsiteFilter": {
+      "Block": ["https://www.quora.com/*"]
+    }
+  }
+}

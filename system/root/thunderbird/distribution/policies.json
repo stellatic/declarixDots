@@ -1,0 +1,33 @@
+{
+	"policies": {
+		"ExtensionSettings": {
+			"*": {
+				"installation_mode": "blocked"
+			},
+			"DuctTape-Dark@addons.thunderbird.net": {
+				"install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/dark-black-theme/addon-988343-latest.xpi",
+				"installation_mode": "force_installed"
+			},
+			"addon@darkreader.org": {
+				"install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/darkreader/addon-988018-latest.xpi",
+				"installation_mode": "force_installed"
+			},
+			"{8845E3B3-E8FB-40E2-95E9-EC40294818C4}": {
+				"install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/quicktext/addon-640-latest.xpi",
+				"installation_mode": "force_installed"
+			},
+			"uBlock0@raymondhill.net": {
+				"install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/ublock-origin/addon-988489-latest.xpi",
+				"installation_mode": "force_installed"
+			},
+			"{9c21158b-2c76-4d0a-980a-c51fc9cefaa7}": {
+				"install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/mailbox-alert/addon-2610-latest.xpi",
+				"installation_mode": "force_installed"
+			},
+			"thunderkeepplus@gmail.com": {
+				"install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/google-keep-tab/addon-747286-latest.xpi",
+				"installation_mode": "force_installed"
+			}
+		}
+	}
+}

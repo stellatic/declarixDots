@@ -1,0 +1,19 @@
+#!/bin/bash
+currentMonitor=$(swaymsg -p -t get_outputs | awk '/\(focused\)/ {print $2}')
+grim -o $currentMonitor /tmp/temp.jpg
+eog -f /tmp/temp.jpg & disown
+while [ -z $(pidof eog) ]; do
+  sleep 0.1;
+done
+grim -g "$(slurp)" /tmp/temp.png
+
+kill $(pidof eog)
+
+if [ -f "/tmp/temp.png" ]; then
+	swappy -f /tmp/temp.png
+	notify-send -i /tmp/temp.png "Grim" "Screenshot copied to clipboard."
+	rm /tmp/temp.png
+fi
+
+rm /tmp/temp.jpg
+

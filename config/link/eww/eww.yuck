@@ -1,0 +1,21 @@
+(defwindow topBar
+  :monitor 0
+  :geometry (
+    geometry
+      :x "0%"
+      :y "0px"
+      :width "100%"
+      :anchor "top center")
+  :stacking "fg"
+  :exclusive true
+  :namespace "topBar"
+  (greeter
+    :text "hello"
+    :name "Tim"))
+
+(defwidget greeter [?text name]
+  (box :orientation "horizontal"
+       :halign "center"
+    text
+    (button :onclick "notify-send 'Hello' 'Hello, ${name}'")
+  ))

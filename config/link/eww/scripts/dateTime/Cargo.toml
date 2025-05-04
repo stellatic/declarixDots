@@ -1,0 +1,11 @@
+[package]
+name = "dateTime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glib = "0.20.3"
+gtk4 = "0.9.1"
+wayland-client = "0.31.6"
+wayland-protocols = "0.32.4"
+wayland-sys = "0.31.5"

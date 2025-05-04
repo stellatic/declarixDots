@@ -1,0 +1,54 @@
+@mixin border {
+  border: solid rgba(255, 255, 255, 0.527) 1px;
+  background-color: rgba(255, 255, 255, 0.253);
+}
+
+* {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.274);
+
+  .module:not(#workspaces) {
+    @include border;
+    border-radius: 6px;
+    padding: 0px 10px
+  }
+
+  #battery {
+    background-color: rgb(3, 255, 3);
+    border-radius: 10px;
+    padding: 2px;
+  }
+
+  #battery.charging {
+    color: yellow;
+  }
+
+  #battery.warning {
+    background-color: orangered;
+  }
+
+  #battery.critical {
+    background-color: red;
+  }
+
+  #workspaces {
+    button {
+      @include border;
+      padding: 0px 5px;
+      border-radius: 40px;
+      margin-right: 3px;
+      &:hover {
+        background-color: red;
+      }
+    }
+    button.active {
+      background-color: rgb(172, 84, 13);
+    }
+  }
+}

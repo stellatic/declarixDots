@@ -1,0 +1,44 @@
+* {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.274);
+}
+window#waybar .module:not(#workspaces) {
+  border: solid rgba(255, 255, 255, 0.527) 1px;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 6px;
+  padding: 0px 10px;
+}
+window#waybar #battery {
+  background-color: rgb(3, 255, 3);
+  border-radius: 10px;
+  padding: 2px;
+}
+window#waybar #battery.charging {
+  color: yellow;
+}
+window#waybar #battery.warning {
+  background-color: orangered;
+}
+window#waybar #battery.critical {
+  background-color: red;
+}
+window#waybar #workspaces button {
+  border: solid rgba(255, 255, 255, 0.527) 1px;
+  background-color: rgba(255, 255, 255, 0.253);
+  padding: 0px 5px;
+  border-radius: 40px;
+  margin-right: 3px;
+}
+window#waybar #workspaces button:hover {
+  background-color: red;
+}
+window#waybar #workspaces button.active {
+  background-color: rgb(172, 84, 13);
+}
+
+/*# sourceMappingURL=style.css.map */

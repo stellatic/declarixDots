@@ -1,0 +1,22 @@
+{
+    "catppuccin.colorOverrides": {
+
+
+
+        "mocha": {
+            "base": "#000000",
+            "mantle": "#000000",
+            "crust": "#0e0808"
+        }
+
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.wordWrap": "on",
+    "telemetry.telemetryLevel": "off",
+    "code-runner.enableAppInsights": false,
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "glassit.alpha": 50,
+}

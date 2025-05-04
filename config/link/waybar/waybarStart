@@ -1,0 +1,23 @@
+#!/bin/bash
+conf=/home/$USER/.config
+waybar=${conf}/waybar
+wofi=${conf}/wofi
+
+while true; do
+	waybar & disown
+	#sass ${waybar}/input.scss ${waybar}/style.css
+	#inotifywait -e modify $waybar $wofi
+  while out=$(inotifywait -e modify $waybar $wofi | awk '{print $1}'); do
+    case $out in
+      $waybar)
+        killall waybar
+        sass $waybar/input.scss $waybar/style.css
+        waybar & disown
+        ;;
+      $wofi)
+        sass $wofi/style.scss $wofi/style.css
+        ;;
+    esac
+  done
+	#killall waybar
+done

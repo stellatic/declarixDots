@@ -1,0 +1,55 @@
+{
+	"HomepageLocation": "https://amazon.co.uk",
+	"HomepageIsNewTabPage": true,
+	"BookmarkBarEnabled": true,
+	"_ShowAppsShortcutInBookmarkBar": true,
+	"SideSearchEnabled": true,
+	"PasswordManagerEnabled": false,
+	"BrowserLabsEnabled": false,
+	"NewTabPageLocation": "qwant.com",
+	"_ManagedBookmarks": [
+		{
+			"name": "Googlesafa",
+			"url": "google.com"
+		},
+		{
+			"name": "Folder 2", "children": [
+				{
+					"name": "hello",
+					"url": "hello.com"
+				}
+			]
+		}
+	],
+	"BrowserThemeColor": "#000000",
+	"ExtensionInstallForcelist": [
+		"eimadpbcbfnmbkopoojfekhnkhdbieeh",
+		"ailoabdmgclmfmhdagmlohpjlbpffblp",
+		"nngceckbapebfimnlniiiahkandclblb",
+		"mnjggcdmjocbbbhaepdhchncahnbgone",
+		"gebbhagfogifgggkldgodflihgfeippi",
+		"jpbjcnkcffbooppibceonlgknpkniiff",
+		"pccckmaobkjjboncdfnnofkonhgpceea",
+		"mgijmajocgfcbeboacabfgobmjgjcoja",
+		"cjpalhdlnbpafiamejdnhcphjbkeiagm",
+		"fihnjjcciajhdojfnbdddfaoknhalnja",
+		"dphilobhebphkdjbpfohgikllaljmgbn"
+	],
+	"ExtensionSettings": {
+		"mgijmajocgfcbeboacabfgobmjgjcoja": {
+			"toolbar_pin": "force_pinned"
+		},
+		"nngceckbapebfimnlniiiahkandclblb": {
+			"toolbar_pin": "force_pinned"
+		},
+		"jpbjcnkcffbooppibceonlgknpkniiff": {
+			"toolbar_pin": "force_pinned"
+		},
+		"cjpalhdlnbpafiamejdnhcphjbkeiagm": {
+			"toolbar_pin": "force_pinned"
+		},
+		"dphilobhebphkdjbpfohgikllaljmgbn": {
+			"toolbar_pin": "force_pinned"
+		}
+	}
+}

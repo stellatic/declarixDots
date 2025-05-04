@@ -1,0 +1,39 @@
+super + {_,ctrl +} {1-9}
+	hyprctl dispatch {workspace,movetoworkspace} {1-9}
+
+super + {_,ctrl +} alt + {1,2,3,4,5,6,7,8,9}
+	hyprctl dispatch {workspace,movetoworkspace} {10,11,12,13,14,15,16,17,18}
+
+super + {d,t}
+  hyprctl dispatch workspace name:{Discord,Thunderbird}
+
+super + {c,f,s,z}
+	hyprctl dispatch {killactive,fullscreen,togglespecialworkspace magic,togglefloating}
+
+super + ctrl + s 
+	hyprctl dispatch movetoworkspace special:magic
+
+super + {_, ctrl +} {Up,Down,Right,Left}
+	hyprctl dispatch {movefocus,movewindow} {u,d,r,l}
+
+super + {_,alt +} space
+	hyprctl dispatch {moveoutofgroup,lockactivegroup toggle}
+
+super + alt + {Right, Left}
+	hyprctl dispatch changegroupactive {f,b}
+
+super + shift + {Up, Down, Right, Left}
+	hyprctl dispatch moveintogroup {u,d,r,l}
+
+altgr + space
+	hyprctl dispatch togglegroup
+
+#shift + {Up,Down}
+#  ~/.config/swhkd/volume {raise,lower}
+
+
+super + p
+  grim -g "$(slurp)" - | wl-copy
+
+
+	
