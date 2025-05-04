@@ -1,4 +1,7 @@
-[system]
+[system.link]
+home = [
+  [".zshrc", ".zshrc"]
+]
 [system.recursive]
 root = [
 	["firefox", "/usr/lib/firefox"],
