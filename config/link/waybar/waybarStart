@@ -2,6 +2,7 @@
 conf=/home/$USER/.config
 waybar=${conf}/waybar
 wofi=${conf}/wofi
+hyprland=${conf}/hypr
 
 while true; do
 	waybar & disown
@@ -17,6 +18,9 @@ while true; do
       $wofi)
         sass $wofi/style.scss $wofi/style.css
         ;;
+      $hypr)
+        hyprctl reload
+        echo "Hello"
     esac
   done
 	#killall waybar

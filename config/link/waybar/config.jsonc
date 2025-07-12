@@ -23,7 +23,8 @@
 		"format": "<span color=\"#FFC300\">{icon}</span> {volume}%",
 		"format-icons": {
 			"default": ""
-		}
+		},
+    "max-volume": 200 
 	},
 
 	"battery": {

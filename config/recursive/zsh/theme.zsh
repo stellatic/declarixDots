@@ -20,8 +20,7 @@ shState=${t7}'%# '
 
 
 line0=$'\n%B${t1}'
-line1=$'┏${user}\n'
-line2=$'┃${time}━${directory}\n'
+line1=$'┏${user}▬${directory}\n'
 line3=$'┗${shState}'
 styleEnd=$'%f%b'
 

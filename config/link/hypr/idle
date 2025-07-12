@@ -1,0 +1,4 @@
+#!/bin/bash
+
+hyprctl dispatch dpms off
+#swaylock --clock --image sun.jpg --indicator --fade-in 0.2

@@ -77,6 +77,14 @@
       "{7c42eea1-b3e4-4be4-a56f-82a5852b12dc}": {
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/phantom-app/latest.xpi",
         "installation_mode": "force_installed"
+      },
+      "firefoxpwa@filips.si": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/pwas-for-firefox/latest.xpi",
+        "installation_mode": "force_installed"
+      },
+      "webpage_sidebar@sftblw.moe": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/webpage-sidebar/latest.xpi",
+        "installation_mode": "force_installed"
       }
     },
     "Preferences": {

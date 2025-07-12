@@ -1,0 +1,16 @@
+:root {
+  --univer-white: blue;
+}
+
+.theme-dark {
+  --background-secondary-alt: black;
+  --color-base-00: black;
+  --color-base-05: black;
+  --color-base-30: black;
+  --color-base-10: black;
+  --color-base-20: black;
+}
+
+.dark\:\!univer-bg-gray-900:where(.univer-dark, .univer-dark *) {
+  background-color: rgb(0, 0, 0) !important;
+}

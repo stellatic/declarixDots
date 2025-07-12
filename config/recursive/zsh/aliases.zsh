@@ -1,6 +1,10 @@
 c_A() {
 	nvim ~/.config/$1/$2
 }
+
+zshC() { c_A zsh ${1}.zsh }
+
+
 alias ls='ls --color=auto'
 alias mkdir='mkdir -p -v'
 #code () { vscodium -r $1 }
@@ -11,3 +15,8 @@ alias nvimS="sudo -E -s nvim $1"
 decla(){ nvim /etc/declarix/declarix.toml }
 alias swhC='c_A swhkd swhkdrc'
 alias chromE='nvimS /etc/chromium/policies/managed/managed_policies.json'
+
+alias cp="cp --verbose"
+
+hyprC() { c_A hypr hyprland.conf }
+

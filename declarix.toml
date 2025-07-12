@@ -1,6 +1,7 @@
 [system.link]
 home = [
-  [".zshrc", ".zshrc"]
+  [".zshrc", ".zshrc"],
+  ["obsidian/snippets", "Documents/Obsidian Vault/.obsidian/snippets"]
 ]
 [system.recursive]
 root = [
@@ -11,6 +12,7 @@ root = [
 
 [install]
 paru = [
+  "zsh",
 	"ttf-font-awesome",
 	"noto-fonts",
 	"noto-fonts-cjk",
@@ -28,7 +30,44 @@ paru = [
 	"inotify-tools",
 	"dart-sass",
 	"swww",
-	"ntfs-3g"
+	"ntfs-3g",
+  "firefox",
+  "wofi",
+  "visual-studio-code-bin",
+  "wev",
+  "pfetch",
+  "mpc",
+  "teams",
+  "grim",
+  "slurp",
+  "wl-clipboard",
+  "pavucontrol",
+  "dunst",
+  "swayidle",
+  "swaylock-effects",
+  "sway-audio-idle-inhibit-git",
+  "gradle",
+  "kotlin",
+  "qemu-base",
+  "virt-manager",
+  "libtpms",
+  "edk2-ovmf",
+  "bridge-utils",
+  "cava",
+  "firefoxpwa",
+  "minecraft-launcher",
+  "opera",
+  "android-tools",
+  "android-studio",
+  "scrcpy",
+  "vscodium-bin",
+  "obsidian",
+  "vivaldi",
+  "zotero-bin",
+  "mpd",
+  "mpc",
+  "mpd-discord-rpc",
+  "waypipe"
 ]
 
 flatpak = [
@@ -36,14 +75,15 @@ flatpak = [
 
 vsc = [
   "aaron-bond.better-comments",
-  "bungcip.better-toml",
+  "tamasfe.even-better-toml",
   "catppuccin.catppuccin-vsc",
   "catppuccin.catppuccin-vsc-icons",
   "esbenp.prettier-vscode",
   "rust-lang.rust-analyzer",
   "ritwickdey.liveserver",
   "formulahendry.auto-close-tag",
-  "abusaidm.html-snippets",
   "html-validate.vscode-html-validate",
-  "s-nlf-fh.glassit"
+  "s-nlf-fh.glassit",
+  "mathiasfrohlich.kotlin",
+  "formulahendry.code-runner"
 ]
