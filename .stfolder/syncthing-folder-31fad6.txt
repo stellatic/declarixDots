@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: eppfg-udfxc
+created: 2025-07-12T17:45:08Z
