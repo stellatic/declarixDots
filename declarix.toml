@@ -1,3 +1,6 @@
+[aliases]
+"[home]" = "/home/stellatic"
+
 [system.link]
 home = [
   [".zshrc", ".zshrc"],
@@ -9,6 +12,7 @@ root = [
 	["thunderbird", "/usr/lib/thunderbird"],
 	["chromium", "/etc/chromium"]
 ]
+
 
 [install]
 paru = [
@@ -58,7 +62,14 @@ paru = [
   "mpc",
   "mpd-discord-rpc",
   "waypipe",
-  "vivaldi"
+  "vivaldi",
+  "keepassxc",
+  "man-db",
+  "gnome",
+  "youtube-music-bin",
+  "floorp-bin",
+  "gnome-browser-connector",
+  "irssi"
 ]
 
 flatpak = [

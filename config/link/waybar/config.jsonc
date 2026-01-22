@@ -6,6 +6,7 @@
 		"hyprland/window"
 	],
 	"modules-right": [
+    "mpris",
 		"network",
 		"pulseaudio",
 		"battery",
@@ -13,6 +14,11 @@
 		"clock#clock2"
 	],
 	"spacing": 5,
+
+  "mpris": {
+    "format": "{status_icon} {artist} - {title} {position}",
+    "interval": 2
+  },
 
 	"network": {
 		"format-wifi": "<span color=\"#FFC300\">{icon}</span> {signalStrength}%",

@@ -4,3 +4,5 @@ src () {
     source "${dir}/$i.zsh"
   done
 }
+
+

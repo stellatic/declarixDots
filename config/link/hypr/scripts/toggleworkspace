@@ -1,0 +1,17 @@
+#!/bin/bash
+lastwork=~/.config/hypr/lastworkspace
+last=$(cat $lastwork)
+
+
+
+current=$(hyprctl activeworkspace | awk 'NR==1{print $4}' | sed -E 's/[() ]//g')
+
+if [[ ! $current -eq "($1)" ]]; then
+  echo $current | tee $lastwork
+  echo $current
+  hyprctl dispatch workspace $1
+else
+  echo $current
+  hyprctl dispatch workspace $last
+fi
+

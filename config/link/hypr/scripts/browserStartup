@@ -1,0 +1,8 @@
+#!/bin/bash
+
+browser=vivaldi
+function chromium() {
+  $browser --profile-directory="Profile $1" $2 & disown
+}
+
+chromium 2 "discord.com/app music.youtube.com messenger.com"

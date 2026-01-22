@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vivaldi --profile-directory="Profile 2" discord.com/app & disown

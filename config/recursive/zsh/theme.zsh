@@ -13,7 +13,7 @@ t6='%F{#00EFFC}'  #directory theme
 t7='%F{#DF1D1D}'  #shell state theme
 
 user=${t1}'['${t2}' '${t3}'%n'${t1}']'
-mpd=${t1}'['${t2}' '${t4}$(mpc current)${t1}']'
+#mpd=${t1}'['${t2}' '${t4}$(mpc current)${t1}']'
 time=${t1}'['${t2}' '${t5}${time}${t1}']'
 directory=${t1}'['${t2}' '${t6}'%~'${t1}']'
 shState=${t7}'%# '

@@ -512,7 +512,7 @@
             "enabled": false
         },
         "UserMessagesPronouns": {
-            "enabled": false
+            "enabled": true
         },
         "UserVoiceShow": {
             "enabled": false
